@@ -1,6 +1,6 @@
-# Gethory
+# MeetSpace
 
-[](https://www.google.com/search?q=https://github.com/kira14102005/gethory)
+[](https://www.google.com/search?q=https://github.com/kira14102005/MeetSpace)
 [](https://www.google.com/search?q=LICENSE)
 [](https://hub.docker.com/r/rrai21/mynextappimage)
 [](https://www.google.com/search?q=CONTRIBUTING.md)
@@ -34,7 +34,7 @@ Real-time WebRTC voice rooms with public/private access.
 
 ## Overview
 
-Gethory is a full-stack web application that allows users to create and join real-time audio chat rooms. It's designed for seamless communication, offering both public and private rooms to suit different needs. The core of the application is built on WebRTC for peer-to-peer audio communication, with a Node.js backend and a React frontend.
+MeetSpace is a full-stack web application that allows users to create and join real-time audio chat rooms. It's designed for seamless communication, offering both public and private rooms to suit different needs. The core of the application is built on WebRTC for peer-to-peer audio communication, with a Node.js backend and a React frontend.
 
 ### Core Features
 
@@ -46,7 +46,7 @@ Gethory is a full-stack web application that allows users to create and join rea
 
 ## Architecture
 
-Gethory follows a classic client-server architecture, with a few key components working together to provide real-time communication.
+MeetSpace follows a classic client-server architecture, with a few key components working together to provide real-time communication.
 
 ```mermaid
 graph TD
@@ -166,8 +166,8 @@ Nginx
 ### 1\. Clone the Repository
 
 ```bash
-git clone https://github.com/kira14102005/gethory.git
-cd gethory
+git clone https://github.com/sah081860-svg/MeetSpace.git
+cd MeetSpace
 ```
 
 ### 2\. Set Up Environment Variables
@@ -182,7 +182,7 @@ PORT=8000
 APP_ORIGIN=http://localhost:3000
 
 # Database
-DATABASE_URL=mongodb://mongo:27017/gethory
+DATABASE_URL=mongodb://mongo:27017/MeetSpace
 
 # JWT
 JWT_ACCESS_SECRET=your_access_secret
@@ -211,7 +211,7 @@ All configuration is managed through environment variables in the `backend/.env`
 | --- | --- | --- |
 | `PORT` | The port the backend server will run on. | `8000` |
 | `APP_ORIGIN` | The URL of the frontend application. | `http://localhost:3000` |
-| `DATABASE_URL` | The connection string for the MongoDB database.| `mongodb://mongo:27017/gethory`|
+| `DATABASE_URL` | The connection string for the MongoDB database.| `mongodb://mongo:27017/MeetSpace`|
 | `JWT_ACCESS_SECRET` | The secret key for signing JWT access tokens.| `your_access_secret` |
 | `JWT_REFRESH_SECRET` | The secret key for signing JWT refresh tokens.| `your_refresh_secret` |
 | `RESEND_API_KEY` | The API key for the Resend email service. | `your_resend_api_key` |
